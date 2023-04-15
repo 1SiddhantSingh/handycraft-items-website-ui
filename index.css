@@ -1,0 +1,240 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar {
+  /*background-color: red;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:fixed;
+  height: 80px;
+  width: 100%;
+  background-color:rgb(248, 242, 238);
+  
+}
+
+.nav-left {
+  margin-left: 24px;
+  font-size: xx-large;
+  margin-bottom: 17px;
+}
+
+.nav-right {
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.nav-right ul {
+  display: flex;
+  padding: 14px;
+  margin: 6px;
+  font-weight: 300;
+}
+.nav-right ul li {
+  margin: 12px;
+  font-size: 20px;
+}
+.nav-right ul li a {
+  color: rgb(56, 18, 18);
+  cursor: pointer;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(247, 229, 216);
+  height: 90vh;
+  padding-top: 80px;
+}
+.about-into {
+  margin-top: 15px;
+  padding-left: 15px;
+}
+.about-into h1 {
+  font-size: 1.5cm;
+  margin-bottom: 25px;
+}
+.about-img1 img {
+  height: 50vh;
+  border-top-right-radius: 279px;
+  border-top-left-radius: 279px;
+  margin-top: 150px;
+  padding-right: 31px;
+  padding-top: 35px;
+}
+
+.about-img2 img {
+  height: 75vh;
+  border-bottom-right-radius: 90px;
+  border-top-left-radius: 90px;
+  margin-right: 100px;
+  margin-top: 67px;
+}
+
+.heading {
+  padding-left: 11cm;
+  margin: 9px;
+  color: rgb(56, 18, 18);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+.heading h4 {
+  margin-left: 3cm;
+}
+
+.intro-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: content-box;
+}
+
+.product-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-img img {
+  border-top-right-radius: 279px;
+  border-top-left-radius: 279px;
+  width: 11cm;
+  padding: 11px;
+  height: 75vh;
+}
+
+.product-img button {
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 30px;
+  width: 3.5cm;
+  cursor: pointer;
+  background-color: rgba(153, 73, 73, 0.877);
+}
+
+.product-img h4 {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(56, 18, 18);
+  padding-bottom: 8px;
+}
+
+.features {
+  padding-top: 30px;
+  display: flex;
+}
+.feature-banner img {
+  height: 100vh;
+  width: 100%;
+  margin-right: 154px;
+}
+
+.feature-content {
+  background-color: rgb(158, 108, 108);
+}
+.feature-content h2 {
+  font-size: 42px;
+}
+
+.features-points {
+  display: flex;
+  flex-direction: column;
+  margin: 7px;
+}
+.points {
+  display: flex;
+  flex-direction: row;
+  padding: 13px;
+  margin: 20px;
+}
+
+.points img {
+  padding-right: 38px;
+  background-color: lightslategray;
+  height: 1.8cm;
+  border-radius: 15px;
+  width: 59px;
+}
+.subpoints {
+  display: flex;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  flex-direction: column;
+  padding: 21px;
+}
+
+.blog-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ /* background-color: rebeccapurple;*/
+ margin-left: 150px;
+}
+.blog-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*background-color: rebeccapurple;*/
+  margin-left: 150px;
+}
+
+.blogs img {
+  width: 60%;
+  height: 85%;
+  margin: 32px;
+}
+.blog-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 51px;
+  font-size: 25px;
+  color: brown;
+}
+
+.ending {
+  padding-top: 50px;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: rgb(158, 108, 108);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.box {
+  width: 24%;
+  height: 33.3%;
+  /*background-color: red;
+  color: white;
+  font-size: 2rem;
+  border: 4px solid white;*/
+}
+.box-about {
+  padding-left: 17px;
+}
+.box-about h1 {
+  padding-bottom: 17px;
+  font-size: 34px;
+}
+
+.box h2 {
+  padding-bottom: 17px;
+}
+
+.box h3 {
+  margin: 8px;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(158, 108, 108);
+}
